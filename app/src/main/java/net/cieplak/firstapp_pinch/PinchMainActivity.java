@@ -11,8 +11,8 @@ import android.widget.TextView;
 
 public class PinchMainActivity extends ActionBarActivity {
 
-    TextView scaleInfo;
-    ScaleGestureDetector scaleDetector;
+    TextView scaleInfo; //info about action
+    ScaleGestureDetector scaleDetector; //class instance
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
