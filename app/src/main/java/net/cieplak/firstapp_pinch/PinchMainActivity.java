@@ -71,7 +71,7 @@ public class PinchMainActivity extends ActionBarActivity {
 
         @Override
         public void onScaleEnd(ScaleGestureDetector detector) {
-            
+            scaleInfo.setText("");
         }
     }
 }
